@@ -20,11 +20,11 @@ PlayCam/
 └── README.md              # This file
 ```
 ## Features
-✅ Pose-based shot classification using MediaPipe Holistic (pose, hands, face)
-✅ LSTM deep learning model for temporal pattern recognition
-✅ 4-class classification: **Cover, Pull, Straight, Sweep**
-✅ Webcam-based real-time prediction with trigger
-✅ Confidence thresholding to avoid false detection
+1. Pose-based shot classification using MediaPipe Holistic (pose, hands, face)
+2. LSTM deep learning model for temporal pattern recognition
+3. 4-class classification: **Cover, Pull, Straight, Sweep**
+4. Webcam-based real-time prediction with trigger
+5. Confidence thresholding to avoid false detection
 **Game integration in progress** — predicted shots will trigger keyboard actions as I already have gone through vgamepad and it won't work of Low-Level Inputs
 
 ## How It Works
@@ -70,7 +70,7 @@ python Extraction.py
 
 This creates `MP_Data/` with .npy sequences.
 
-### 🧠 Train the Model
+### Train the Model
 
 ```bash
 python train_model.py
@@ -105,7 +105,7 @@ Stay tuned for updates on game compatibility!
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 * `mediapipe`
 * `opencv-python`
@@ -132,7 +132,7 @@ With end-to-end support on MediaPipe, model training, and game control integrati
 * Frame skipping for faster real-time FPS
 
 
-## 📬 Contact
+## Contact
 
 For queries or collaboration, feel free to reach out!
 Email: devyadavofficial02@gmail.com
